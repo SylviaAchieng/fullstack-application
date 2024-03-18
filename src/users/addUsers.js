@@ -60,7 +60,9 @@ export default function AddUsers() {
             </div>
 
             <div className='mb-3'>
-                <label htmlFor='Email' className='form-label'>
+                <label 
+                htmlFor='Email' 
+                className='form-label'>
                     Email
                 </label>
                 <input 
