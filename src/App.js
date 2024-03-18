@@ -4,7 +4,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Navbar from './layout/Navbar';
 import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import addUsers from "./users/addUsers" ;
+import AddUsers from "./users/AddUsers";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
 
       <Routes >
         <Route exact path="/" element={<Home/>}/>
-        <Route exact path="/adduser" element={<addUsers/>}/>
+        <Route exact path="/adduser" element={<AddUsers/>}/>
       </Routes>
       </Router>
     </div>
