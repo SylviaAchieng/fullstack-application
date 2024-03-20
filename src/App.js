@@ -5,7 +5,7 @@ import Navbar from './layout/Navbar';
 import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AddUsers from './users/AddUsers';
-import EditUser from './users/EditUser';
+import EditUser from './users/EditUsers';
 
 function App() {
   return (
