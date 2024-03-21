@@ -7,7 +7,7 @@ export default function Navbar() {
       
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">Crud Application</a>
+          <Link className="navbar-brand" to='/'>Crud Application</Link>
           <button 
           className="navbar-toggler" 
           type="button" 
